@@ -21,5 +21,5 @@
    <dd><a href="[% c.uri_for_action('/index') %]">[% c.loc('Calendar') %]</a></dd>
   </dl>
  </nav>
- <p><strong>App::Trapper</strong> is a <a href="http://www.coldhardcode.com">Cold Hard Code</a> property. &copy; 2010 Cold Hard Code, LLC</p>
+ <p><strong>Trapper</strong> is a <a href="http://www.coldhardcode.com">Cold Hard Code</a> property. &copy; 2010 Cold Hard Code, LLC</p>
 </footer>

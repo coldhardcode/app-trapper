@@ -1,1 +1,4 @@
 Hi!
+[% FOREACH user IN users %]
+[% user %]
+[% END %]

@@ -29,6 +29,8 @@ The root page (/)
 sub index :Path :Args(0) {
     my ( $self, $c ) = @_;
 
+    $c->stash->{users} = $c->model('Rabbit')->users;
+
     $c->stash->{template} = 'index.tt';
 }
 
