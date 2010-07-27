@@ -1,0 +1,25 @@
+<footer>
+ <nav>
+ [% IF 1 # XX need administrative check
+ %]
+  <dl>
+   <dt>[% c.loc('Administration') %]</dt>
+   <dd><a href="[% c.uri_for_action('/index') %]">[% c.loc('General') %]</a></dd>
+  </dl>
+  [% ELSE %]
+  <dl>
+   <dt>&nbsp;</dt>
+   <dt>&nbsp;</dt>
+  </dl>
+  [% END %]
+  <dl>
+   <dt>[% c.loc('Tactical') %]</dt>
+   <dd><a href="[% c.uri_for('/index') %]">[% c.loc('My Tickets') %]</a></dd>
+  </dl>
+  <dl>
+   <dt>[% c.loc('Strategic') %]</dt>
+   <dd><a href="[% c.uri_for_action('/index') %]">[% c.loc('Calendar') %]</a></dd>
+  </dl>
+ </nav>
+ <p><strong>App::Trapper</strong> is a <a href="http://www.coldhardcode.com">Cold Hard Code</a> property. &copy; 2010 Cold Hard Code, LLC</p>
+</footer>

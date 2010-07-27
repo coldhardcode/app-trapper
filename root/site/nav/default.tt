@@ -1,0 +1,7 @@
+<aside>
+ <nav>
+  <h3>[% c.loc('Something') %]</h3>
+  <ul>
+  </ul>
+ </nav>
+</aside>

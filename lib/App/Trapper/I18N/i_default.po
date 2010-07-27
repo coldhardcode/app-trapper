@@ -1,0 +1,5 @@
+msgid "FIELD REQUIRED SPLAT"
+msgstr "&#10036;"
+
+msgid "CRUMBS_SEP"
+msgstr ":"
